@@ -1,17 +1,17 @@
 # iot-ac-remote
 IoT AC Remote using a Wemos D1 Mini and the Blynk app
 
-##Hardware
+## Hardware
 - Wemos D1 Mini
 - IR transmitter with transistor embedded
 - Mini USB cable
 - Wires
 
-##Software
+## Software
 - Arduino IDE
 - Blynk mobile app
 
-##Instructions
+## Instructions
 1. Create a new app project in Blynk. Copy the auth token from the email they send you and paste it as the value of `auth` in the Arduino sketch.
 2. Add 3 push buttons in your Blynk app:
   - Hot (V1 pin)
@@ -26,10 +26,10 @@ IoT AC Remote using a Wemos D1 Mini and the Blynk app
   - Wemos D2 to transmitter DATA
 7. Power the circuit. It's ready!
 
-##Limitations
+## Limitations
 This is a project for my personal use. I have a Mitsubishi Electric AC unit at home so this sketch only works for this maker. It would be easy to adapt it for other brands.
 
-##Dependencies
+## Dependencies
 - IR Remote library https://github.com/markszabo/IRremoteESP8266
 - Blynk app and library https://www.blynk.cc/
 
